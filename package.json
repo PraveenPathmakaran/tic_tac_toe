@@ -1,0 +1,15 @@
+{
+  "scripts": {
+    "start": "node ./server/index.js",
+    "dev": "nodemon ./server/index.js"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.0"
+  },
+  "dependencies": {
+    "expres": "^0.0.5",
+    "http": "^0.0.1-security",
+    "mongoose": "^8.2.1",
+    "socket.io": "^4.7.4"
+  }
+}
